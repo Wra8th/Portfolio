@@ -1,5 +1,4 @@
 import React , {useState, useEffect} from "react"
-import { render } from "react-dom"
 import {Link} from "react-router-dom"
 import sanityClient from "../client.js"
 

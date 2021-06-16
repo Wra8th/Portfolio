@@ -7,7 +7,7 @@ export default function Navbar(){
     <header className="yellowish">
       <div className="container mx-auto flex justify-between">
         <nav className="flex">
-          <NavLink to='/' exact activeClassName="text-white" className="inline-flex items-center py-6 px-3 mr-4 text-red-100 hover:text-blue-700 text-4xl font-bold tracking-widest">
+          <NavLink to='/' exact activeClassName="text-white" className="inline-flex items-center py-6 px-3 mr-4 text-red-100 hover:text-blue-700 text-2xl font-bold tracking-widest">
             Yash
           </NavLink>
           <NavLink to='/post' activeClassName="text-pink-500  " className="inline-flex items-center py-3 px-3 my-6 rounded text-red-200 bold hover:text-blue-700 ">

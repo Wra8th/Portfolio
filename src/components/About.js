@@ -1,4 +1,4 @@
-import React, {useEffect, useRef, useState }from "react"
+import React, {useEffect, useState }from "react"
 import imageUrlBuilder from "@sanity/image-url"
 import BlockContent from "@sanity/block-content-to-react"
 import sanityClient from "../client"
@@ -37,7 +37,7 @@ return(
     <div className="p-10 lg:pt-48 container mx-auto relative">
       <img src ={urlFor(author.authorImage).url()} className="rounded w-32 h-32 lg:w-64 lg:h-64 mr-8" alt={author.name}/>
       <div className="text-lg flex flex-col justify-center">
-        <h1 className="text-6xl text-green-300 mb-4 libre">Yash Lodhiya</h1>
+        <h1 className="text-2xl text-green-300 mb-4 libre">Yash Lodhiya</h1>
       <div className="prose lg:prose-xl text-white">
         <BlockContent blocks={author.bio} projectId="66f2s6kq" dataset="production"/>
         </div>
